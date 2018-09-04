@@ -35,7 +35,7 @@ public class Engine {
     @Override
     public String toString() {
         return this.model + ":\n" +
-                "Power: " + this.power + "\n" +
+                "exams._2018_07_08_TheWarOfTheComic.Power: " + this.power + "\n" +
                 "Displacement: " + this.displacement + "\n" +
                 "Efficiency: " + this.efficiency + "\n";
     }

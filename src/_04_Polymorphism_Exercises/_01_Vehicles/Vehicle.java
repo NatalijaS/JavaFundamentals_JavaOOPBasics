@@ -1,6 +1,7 @@
 package _04_Polymorphism_Exercises._01_Vehicles;
 
 abstract class Vehicle {
+
     private final double FUEL_CONSUMPTION_INCREASE = this.getClass().getSimpleName().equals("Truck") ? 1.6 : 0.9;
 
     private double fuelQuantity;
@@ -42,6 +43,6 @@ abstract class Vehicle {
 
     @Override
     public String toString() {
-        return String.format("%s: %.2f",this.getClass().getSimpleName(), this.getFuelQuantity());
+        return String.format("%s: %.2f", this.getClass().getSimpleName(), this.getFuelQuantity());
     }
 }
